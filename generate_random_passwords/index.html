@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Random Password</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.png" type="image/png">
+ 
+</head>
+<body>
+
+    <div class="container">
+        <div class="title">
+            <h1>Random Password <br><span>Generator</span></h1>
+        </div>
+        <label for="length-input">Password Length:</label>
+        <input type="number" id="length-input" value="8" min="1" max="30">
+
+        <div id="message-box">
+            <img src="images/message_box.png" alt="message-box">
+            <p>Copied!</p>
+        </div>
+        <div class="password-panel">
+            <input id="password-input" type="text">
+            <button class="copy-btn"><img class="copy" src="images/copy.png" alt="copy"></button>
+        </div>
+        <div class="btn"><button><i class="fa-solid fa-bolt bolt"></i>Generate Password</button></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
